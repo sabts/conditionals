@@ -19,7 +19,7 @@ console.log (multipleOfSeven(40))
 console.log (multipleOfSeven(70))
 
 const abbyrecruitmentTest = (number) =>{
-    if (number > 8) {return 'Salimos al amanecer'} if (number >=5){return 'Entras en la reserva'} if(number <=4){return 'Estás Fuera'}
+    if (number >= 0 && number<= 4) {return 'Estás Fuera'} if (number >=5 && number<= 7){ return 'Entras en la reserva'} else { return 'Salimos al amanecer'}
 }
 console.log (abbyrecruitmentTest (3))
 console.log (abbyrecruitmentTest (6))
@@ -28,8 +28,6 @@ console.log (abbyrecruitmentTest (9))
 const macarenaHeaviestDog = (dog1, dog2, dog3) =>{
     if (dog1> dog2, dog3){return 'el perro uno es el más pesado'} if(dog2> dog1, dog3){return 'el perro dos es el más pesado'} if (dog3> dog1, dog2) {return 'el perro tres es el más pesado'}
 }
-console.log (macarenaHeaviestDog(35,20,15))
+console.log (macarenaHeaviestDog(35,20,40))
 console.log (macarenaHeaviestDog(20,30,15))
 console.log (macarenaHeaviestDog(15,20,30))
-
-const 
