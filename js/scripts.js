@@ -31,3 +31,5 @@ const macarenaHeaviestDog = (dog1, dog2, dog3) =>{
 console.log (macarenaHeaviestDog(35,20,15))
 console.log (macarenaHeaviestDog(20,30,15))
 console.log (macarenaHeaviestDog(15,20,30))
+
+const 
