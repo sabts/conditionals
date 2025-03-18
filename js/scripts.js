@@ -12,22 +12,39 @@ console.log (begoFreeShipping(55))
 console.log (begoFreeShipping(45))
 
 const multipleOfSeven = (number) =>{
-    if (number % 7 === 0){return 'El número es multiplo de 7 '} else {return 'No es multiplo de 7'
-    }
+    if (number % 7 === 0){return 'El número es multiplo de 7 '} else {return 'No es multiplo de 7'}
 }
 console.log (multipleOfSeven(40))
 console.log (multipleOfSeven(70))
 
 const abbyrecruitmentTest = (number) =>{
-    if (number >= 0 && number<= 4) {return 'Estás Fuera'} if (number >=5 && number<= 7){ return 'Entras en la reserva'} else { return 'Salimos al amanecer'}
+    if (number >= 0 && number<= 4) {return 'Estás Fuera'} else if (number >=5 && number<= 7){ return 'Entras en la reserva'} else { return 'Salimos al amanecer'}
 }
 console.log (abbyrecruitmentTest (3))
 console.log (abbyrecruitmentTest (6))
 console.log (abbyrecruitmentTest (9))
 
 const macarenaHeaviestDog = (dog1, dog2, dog3) =>{
-    if (dog1> dog2, dog3){return 'el perro uno es el más pesado'} if(dog2> dog1, dog3){return 'el perro dos es el más pesado'} if (dog3> dog1, dog2) {return 'el perro tres es el más pesado'}
+    if (dog1> dog2 && dog1> dog3) {return 'el perro uno es el más pesado'} else if(dog2> dog1 && dog2> dog3){return 'el perro dos es el más pesado'} else {return 'el perro tres es el más pesado'}
 }
 console.log (macarenaHeaviestDog(35,20,40))
-console.log (macarenaHeaviestDog(20,30,15))
-console.log (macarenaHeaviestDog(15,20,30))
+console.log (macarenaHeaviestDog(15,20,10))
+console.log (macarenaHeaviestDog(15,20,40))
+
+const camilaPrizeNumber = (number) => {
+    if (number % 3 === 0 && number % 5 === 0) {return 'Felicidades! ganaste un regalo y un descuento en tu próxima compra'} else if (number % 5 === 0) {return'Felicidades! ganaste un regalo'} else if(number % 3 === 0) {return 'Felicidades! ganaste un un descuento en tu próxima compra'} else {return 'Buena suerte la próxma vez'};
+}
+console.log (camilaPrizeNumber(30))
+console.log (camilaPrizeNumber(50))
+console.log (camilaPrizeNumber(6))
+console.log (camilaPrizeNumber(8))
+
+const begoSharingCandies = (number) => {
+    if  (number % 2===0){return 'Esta cantidad es par'} else {return 'Esta cantidad es impar'}
+}
+console.log (begoSharingCandies(80))
+console.log (begoSharingCandies(83))
+
+const planningLeapYearTravel = (year) =>{
+    if (year % 4 === 0)
+}
