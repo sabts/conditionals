@@ -40,11 +40,20 @@ console.log (camilaPrizeNumber(6))
 console.log (camilaPrizeNumber(8))
 
 const begoSharingCandies = (number) => {
-    if  (number % 2===0){return 'Esta cantidad es par'} else {return 'Esta cantidad es impar'}
+    if  (number % 2===0){return 'Esta cantidad es par'} else {return 'Esta cantidad es impar, será un duelo a muerte con cuchillos'}
 }
 console.log (begoSharingCandies(80))
 console.log (begoSharingCandies(83))
 
 const planningLeapYearTravel = (year) =>{
-    if (year % 4 === 0)
+    if (year % 4 === 0 && year % 100 !== 0 || year / 400 === 0)  {return 'Es un año bisiesto'} else {return 'No es un año bisiesto'}} 
+console.log (planningLeapYearTravel(2025))
+console.log (planningLeapYearTravel(2036))
+
+const accessHackingArea = (code) =>{
+    if(code % 2 === 0 && code > 50 || code % 7 === 0 && code > 50 ) {return 'Acceso concedido'} else {return 'Acceso denegado'}
 }
+console.log (accessHackingArea(60))
+console.log (accessHackingArea(77))
+console.log (accessHackingArea(14))
+
