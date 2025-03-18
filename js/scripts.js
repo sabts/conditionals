@@ -58,7 +58,7 @@ console.log (accessHackingArea(77))
 console.log (accessHackingArea(14))
 
 const macarenaDogsHealth = (weight, year) => {
- if (weight >=8 && weight <=30 && year % 3 === 0) {return 'El perro está saludable'} else {return 'Perro pocho 😢'}
+ if ((weight >=8 && weight <=30) && (year % 3 === 0 && year <= 15)) {return 'El perro está saludable'} else {return 'Perro pocho 😢'}
 }
 console.log (macarenaDogsHealth(20,17))
 console.log (macarenaDogsHealth(20,15))
